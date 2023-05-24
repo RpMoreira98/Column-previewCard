@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;    
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedan > h1  {
+    color: white;
+}
+
+.sedan > p {
+    color: #FFF;
+}
+
+.sedan > button {
+    color:hsl(31, 77%, 52%);
+    background-color: #FFF;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.sedan > button:hover {
+    background-color:hsl(31, 72%, 35%);
+    color: white;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+}
+
+.suvs > h1 {
+    color:#FFF;
+}
+
+.suvs > p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: ;
+    font-weight: lighter;
+    font-style: normal;
+    
+}
+
+.suvs > button {
+    color:hsl(184, 100%, 22%);
+    background-color: #FFF;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.suvs > button:hover {
+    background-color:hsl(184, 100%, 9%);
+    color: #FFF;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury > h1 {
+    color: #FFF;
+}
+
+.luxury > p {
+    color: #FFF;
+}
+
+.luxury > button {
+    color:hsl(179, 100%, 13%);
+    background-color: #FFF;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.luxury > button:hover {
+    background-color:hsl(179, 99%, 34%);
+    color: white;  
+}
